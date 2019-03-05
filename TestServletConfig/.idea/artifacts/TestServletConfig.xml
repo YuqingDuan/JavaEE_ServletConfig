@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="TestServletConfig">
+    <output-path>$PROJECT_DIR$/out/artifacts/TestServletConfig</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="TestServletConfig/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="TestServletConfig" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$PROJECT_DIR$/../JavaEE_Code/ServletConfigDemo/out/artifacts/JavaEE_Code_jar/JavaEE_Code.jar" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
